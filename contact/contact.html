@@ -4,19 +4,33 @@
 <head>
     <title>Contact Me</title>
     <style>
+        table,
+        tr,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+        
         p {
             display: inline;
         }
         
         .links {
-            margin-top: 0%;
             background-color: black;
             text-align: center;
+            padding: 8px;
         }
         
         a {
-            text-decoration: none;
+            padding: 40px;
             color: white;
+            text-decoration: none;
+        }
+        
+        img {
+            width: 25px;
         }
     </style>
 </head>
@@ -24,27 +38,48 @@
 <body>
     <!-- pages links -->
     <div class="links">
-        <a href="../home/indix.html"> <b>Home</b> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="../skills/skills.html"> <b>Skills</b> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="../index.html"> <b>Home</b> </a>
+        <a href="../skills/skills.html"> <b>Skills</b> </a>
         <a href="../projects/projects.html"> <b>Projects</b> </a>
     </div>
 
     <br><br>
 
-    <!-- SMIT LOGO -->
-    <img src="../images/smit-logo.png" alt="SMIT Logo" style="width: 100px; border: 1px solid black; border-radius: 50%;">
-    <br><br>
 
-    <!-- icons & contact links -->
-    <img src="../images/whatsapp.png" alt="whatsapp logo" width="30px"> 030-00000000 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <!-- Contacts Table -->
+    <table width="100%">
+        <tr>
+            <th colspan="5" style="background-color: green; color: white;"> Contacts</th>
+        </tr>
 
-    <img src="../images/call-icon.png" alt="call logo" width="30px"> 030-00000000 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <!-- heading row -->
+        <tr style="background-color: gray;">
+            <th>Whatsapp</th>
+            <th>Phone</th>
+            <th>Email</th>
+            <th>Linkedin</th>
+            <th>GitHub</th>
+        </tr>
+        <!-- icons row -->
+        <tr>
+            <td><img src="../images/whatsapp.png"></td>
+            <td><img src="../images/call-icon.png"></td>
+            <td><img src="../images/email.png"></td>
+            <td><img src="../images/linkedin.png"></td>
+            <td><img src="../images/github-icon.png"></td>
+        </tr>
+        <!-- data row -->
+        <tr>
+            <td>030-00000000</td>
+            <td>030-00000000</td>
+            <td><a href="mailto: shakir.edu304@gmail.com" target="-blank" style="color: blue;">Email Me</a></td>
+            <td><a href="https://www.linkedin.com/in/shakir-ullah-218518277/" target="-blank" style="color: blue;">Linkedin Profile</a></td>
+            <td>
+                <a href="https://github.com/ShakirUllah-bj" target="-blank" style="color: blue;">GitHub Profile</a>
+            </td>
+        </tr>
 
-    <img src="../images/email.png" alt="Email logo" width="25px">
-    <a href="mailto: shakir.edu204@gmai.com" style="color: blue;">Email Me</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-
-    <img src="../images/linkedin.png" alt="linkedin logo" width="25px">
-    <a href="https://www.linkedin.com/in/shakir-ullah-218518277/" style="color: blue;">Linkedin Profile</a>
+    </table>
 </body>
 
 </html>
