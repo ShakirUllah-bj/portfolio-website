@@ -13,6 +13,12 @@
             padding: 8px;
         }
         
+        table {
+            width: 68%;
+            text-align: center;
+            margin: auto;
+        }
+        
         p {
             display: inline;
         }
@@ -32,10 +38,29 @@
         img {
             width: 25px;
         }
+        /* form css */
+        
+        #form-div {
+            width: 60%;
+            background-color: blueviolet;
+            margin: auto;
+            text-align: center;
+            padding: 50px;
+            color: white;
+        }
+        
+        .inputs,
+        .buttons {
+            width: 23%;
+        }
+        
+        #email {
+            width: 47%;
+        }
     </style>
 </head>
 
-<body>
+<body topmargin="0" leftmargin="0" rightmargin="0">
     <!-- pages links -->
     <div class="links">
         <a href="../index.html"> <b>Home</b> </a>
@@ -45,9 +70,8 @@
 
     <br><br>
 
-
     <!-- Contacts Table -->
-    <table width="100%">
+    <table>
         <tr>
             <th colspan="5" style="background-color: green; color: white;"> Contacts</th>
         </tr>
@@ -78,8 +102,27 @@
                 <a href="https://github.com/ShakirUllah-bj" target="-blank" style="color: blue;">GitHub Profile</a>
             </td>
         </tr>
-
     </table>
+
+    <br><br>
+
+    <div id="form-div">
+        <h1>let's chat</h1>
+        <p>wether you have a question, want to start a project or simply want to connect. <br><br> feel free to send me a message in the contact form</p>
+        <br><br>
+        <form action="">
+            <input type="text" placeholder="First Name" class="inputs">
+            <input type="text" placeholder="Second Name" class="inputs">
+            <br><br>
+            <input type="email" placeholder="example@example.com" id="email">
+            <br><br>
+            <textarea cols="50" rows="10" placeholder="type your message here..."></textarea>
+            <br><br>
+            <input type="reset" class="buttons">
+            <input type="submit" class="buttons">
+        </form>
+
+    </div>
 </body>
 
 </html>
