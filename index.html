@@ -14,6 +14,12 @@
             padding: 8px;
         }
         
+        table {
+            width: 90%;
+            text-align: center;
+            margin: auto;
+        }
+        
         .links {
             background-color: black;
             text-align: center;
@@ -25,10 +31,14 @@
             color: white;
             text-decoration: none;
         }
+        
+        #my-pic {
+            padding: 0%;
+        }
     </style>
 </head>
 
-<body topmargin="0" leftmargin="0" rightmargin="0">
+<body topmargin="0">
 
     <!-- Other Pages Links -->
     <div class="links">
@@ -37,22 +47,32 @@
         <a href="./contact/contact.html"> <b>Contact Me</b></a>
     </div> <br><br>
 
-    <!-- My Brief Introduction -->
-    <h2>Hi I Am Shakir Ullah</h2>
-    <img src="./images/My-pic.jpg" height="200px">
-
-    <p>I Belong to District Bajaur. Student of BS <br>Computer Science at Agriculture University of Peshawar.<br> Also Student of
-        <abbr title="Web & Mobile App Developemet">WMA</abbr> at <abbr title="Sylani Mass IT Training">SMIT</abbr> Peshawar. </p>
+    <!-- ye introduction table ha -->
+    <table>
+        <tr>
+            <th colspan="2">
+                <h1>Hi I Am Shakir Ullah</h1>
+            </th>
+        </tr>
+        <tr>
+            <td id="my-pic">
+                <img src="./images/My-pic.png" width="200px">
+            </td>
+            <td>
+                <p>I Belong to District Bajaur. Student of BS <br>Computer Science at Agriculture University of Peshawar.<br> Also Student of Web and Mobile App Development at <abbr title="Sylani Mass IT Training">SMIT</abbr> Peshawar. </p>
+            </td>
+        </tr>
+    </table>
 
     <!-- Eductional Information in Table -->
-    <Table width="100%">
+    <Table>
         <!-- first row -->
         <tr style="background-color: green; color: white;">
             <th colspan="5">Eductional Information</th>
         </tr>
 
         <!-- Second row / Heading row -->
-        <tr style="background-color: gray;">
+        <tr style="background-color: blue; color: white;">
             <th>Degrees</th>
             <th>Schools & College</th>
             <th>Total Marks</th>
@@ -89,7 +109,7 @@
 
         <!-- sixth row -->
         <tr>
-            <td>Batchlor</td>
+            <td>Bachelor</td>
             <td>Agriculture University of Peshawar</td>
             <td>4 GPA</td>
             <td>3.2</td>
