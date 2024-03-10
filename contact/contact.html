@@ -19,16 +19,17 @@
             margin: auto;
         }
         
-        .links {
+        .links_div {
             background-color: black;
             text-align: center;
-            padding: 8px;
+            padding: 12px;
         }
         
         a {
             padding: 40px;
             color: white;
             text-decoration: none;
+            font-weight: bolder;
         }
         
         img {
@@ -68,7 +69,10 @@
         
         .buttons {
             background-color: orange;
-            width: 15%;
+            width: 12%;
+            height: 40px;
+            font-size: large;
+            font-weight: bold;
         }
     </style>
 </head>
@@ -76,10 +80,10 @@
 <body topmargin="0">
 
     <!--Other Pages Pinks -->
-    <div class="links">
-        <a href="../index.html"> <b>Home</b> </a>
-        <a href="../skills/skills.html"> <b>Skills</b> </a>
-        <a href="../projects/projects.html"> <b>Projects</b> </a>
+    <div class="links_div">
+        <a href="../index.html"> Home </a>
+        <a href="../skills/skills.html"> Skills </a>
+        <a href="../projects/projects.html"> Projects </a>
     </div>
 
     <br><br>
@@ -87,7 +91,7 @@
     <!-- Contacts Table -->
     <table>
         <tr>
-            <th colspan="5" style="background-color: green; color: white;"> Contacts</th>
+            <th colspan="5" style="background-color: green; color: white;"> Contacts </th>
         </tr>
 
         <!-- heading row -->
@@ -109,13 +113,15 @@
         <!-- data row -->
         <tr>
             <td>
-                <a href="tel:03059502744" style="color: blue;">Whatsapp</a>
+                <a href="https://wa.me/03059502744" style="color: blue;" target="_blank">Whatsapp</a>
             </td>
-            <td>030-00000000</td>
-            <td><a href="mailto: shakir.edu304@gmail.com" target="-blank" style="color: blue;">Email Me</a></td>
-            <td><a href="https://www.linkedin.com/in/shakir-ullah-218518277/" target="-blank" style="color: blue;">Linkedin Profile</a></td>
             <td>
-                <a href="https://github.com/ShakirUllah-bj" target="-blank" style="color: blue;">GitHub Profile</a>
+                <a href="tel:03059502744" style="color: blue;" target="_blank">Call Me</a>
+            </td>
+            <td><a href="mailto: shakir.edu304@gmail.com" style="color: blue;" target="-blank"> Email Me </a></td>
+            <td><a href="https://www.linkedin.com/in/shakir-ullah-218518277/" style="color: blue;" target="-blank">Linkedin </a></td>
+            <td>
+                <a href="https://github.com/ShakirUllah-bj" target="-blank" style="color: blue;"> GitHub </a>
             </td>
         </tr>
     </table>
@@ -130,18 +136,15 @@
         <br>
 
         <form action="">
-            <fieldset>
-                <input type="text" placeholder="First Name" class="user-name">
-                <input type="text" placeholder="Second Name" class="user-name">
-                <br><br><br>
-                <input type="email" placeholder="example@example.com" class="email-textarea">
-                <br><br><br>
-                <textarea cols="50" rows="10" placeholder="type your message here..." class="email-textarea"> </textarea>
-                <br><br><br>
-                <input type="reset" class="buttons">
-                <input type="submit" class="buttons">
-            </fieldset>
-
+            <input type="text" placeholder="First Name" class="user-name">
+            <input type="text" placeholder="Second Name" class="user-name">
+            <br><br><br>
+            <input type="email" placeholder="example@example.com" class="email-textarea">
+            <br><br><br>
+            <textarea cols="50" rows="10" class="email-textarea" placeholder="Type Your Message Here..."> </textarea>
+            <br><br><br>
+            <input type="reset" class="buttons">
+            <input type="submit" class="buttons">
         </form>
 
     </div>
