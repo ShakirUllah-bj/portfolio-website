@@ -20,7 +20,11 @@
             margin: auto;
         }
         
-        .links_div {
+        td {
+            background-color: aquamarine;
+        }
+        
+        nav {
             background-color: black;
             text-align: center;
             padding: 12px;
@@ -33,95 +37,113 @@
             font-weight: bolder;
         }
         
-        img {
-            width: 300px;
-        }
-        
         dd {
             text-align: justify;
+            display: inline;
+        }
+        
+        #container {
+            padding: 5%;
         }
     </style>
 </head>
 
 <body topmargin="0">
+
     <!--Other Pages Links-->
-    <div class="links_div">
-        <a href="../index.html"> Home </a>
-        <a href="../skills/skills.html"> Skills </a>
-        <a href="../contact/contact.html"> Contact </a>
-    </div>
+    <header>
+        <nav>
+            <a href="../index.html"> Home </a>
+            <a href="../skills/skills.html"> Skills </a>
+            <a href="../contact/contact.html"> Contact </a>
+        </nav>
+    </header>
 
     <br><br>
 
-    <!-- Projects Table -->
-    <table>
-        <tr>
-            <th colspan="4" style="background-color: green; color: white;"> My Projects</th>
-        </tr>
+    <main>
+        <!-- Projects Table Section -->
+        <section>
+            <table>
+                <tr>
+                    <th colspan="4" style="background-color: green; color: white;"> My Projects</th>
+                </tr>
 
-        <!-- 1st row -->
-        <tr style="background-color: blue; color: white;">
-            <th>Project No</th>
-            <th>Company</th>
-            <th>Salary</th>
-            <th>Duration</th>
-        </tr>
+                <!-- 1st row -->
+                <tr style="background-color: blue; color: white;">
+                    <th>Project No</th>
+                    <th>Company</th>
+                    <th>Salary</th>
+                    <th>Duration</th>
+                </tr>
 
-        <!-- 2nd row -->
-        <tr>
-            <td>01</td>
-            <td>Google</td>
-            <td>150,000</td>
-            <td>5 Months</td>
-        </tr>
-        <!-- 3rd row -->
-        <tr>
-            <td>02</td>
-            <td>Microsoft</td>
-            <td>200,000</td>
-            <td>8 Months</td>
-        </tr>
-        <!-- 4th row -->
-        <tr>
-            <td>03</td>
-            <td>Unity</td>
-            <td>300,000</td>
-            <td>4 Months</td>
-        </tr>
-    </table>
+                <!-- 2nd row -->
+                <tr>
+                    <td>01</td>
+                    <td>Google</td>
+                    <td>150,000</td>
+                    <td>5 Months</td>
+                </tr>
+                <!-- 3rd row -->
+                <tr>
+                    <td>02</td>
+                    <td>Microsoft</td>
+                    <td>200,000</td>
+                    <td>8 Months</td>
+                </tr>
+                <!-- 4th row -->
+                <tr>
+                    <td>03</td>
+                    <td>Unity</td>
+                    <td>300,000</td>
+                    <td>4 Months</td>
+                </tr>
+            </table>
+        </section>
 
-    <br><br>
-
-    <dl>
-        <dt><b>C++</b></dt>
-        <dd>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est porro cum aspernatur non consequuntur praesentium, minus ratione deleniti tempora corrupti, nisi assumenda amet eveniet saepe recusandae laboriosam animi debitis quibusdam deserunt
-                alias quo eaque incidunt quis? Eligendi inventore quasi possimus nam. Nemo minus, eum ea, unde officiis nisi enim facere cum dolorum quod repellat. Itaque consequatur fuga tempora nesciunt ipsum perspiciatis, qui velit repudiandae alias,
-                dolores pariatur enim. Nesciunt, cupiditate sed aperiam earum iusto neque voluptates fugiat modi, sit numquam incidunt facilis voluptate, aut harum sequi! Nulla facere reiciendis minus excepturi. Corrupti, impedit soluta! Aliquam aspernatur
-                velit dolore unde maiores?</p>
-            <img src="../images/cpp-project.png">
-        </dd>
         <br><br>
 
-        <dt><b>HTML & CSS</b></dt>
-        <dd>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est porro cum aspernatur non consequuntur praesentium, minus ratione deleniti tempora corrupti, nisi assumenda amet eveniet saepe recusandae laboriosam animi debitis quibusdam deserunt
-                alias quo eaque incidunt quis? Eligendi inventore quasi possimus nam. Nemo minus, eum ea, unde officiis nisi enim facere cum dolorum quod repellat. Itaque consequatur fuga tempora nesciunt ipsum perspiciatis, qui velit repudiandae alias,
-                dolores pariatur enim. Nesciunt, cupiditate sed aperiam earum iusto neque voluptates fugiat modi, sit numquam incidunt facilis voluptate, aut harum sequi! Nulla facere reiciendis minus excepturi. Corrupti, impedit soluta! Aliquam aspernatur
-                velit dolore unde maiores?</p>
-            <img src="../images/html&css-project.jpeg">
-        </dd>
-        <br><br>
+        <div id="container">
+            <section>
+                <h2>this is dummy project 1 </h2>
+                <img src="../images/dummy-project-1.jpg" width="500px" height="265px">
+                <video src="../videos/dummy-project-1.mp4" width="500px" controls preload> your browser does not support video element </video>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat labore recusandae quia laborum placeat accusamus officia modi, beatae itaque maiores voluptatem, dicta id libero, animi laboriosam corrupti mollitia aperiam quod iste illo repudiandae perferendis
+                    quasi reprehenderit. Suscipit impedit magni quod incidunt quisquam, dolores vitae, sit, natus rem similique error? Id animi enim voluptas est suscipit, officiis sint dignissimos magni pariatur veritatis tenetur consequuntur, vero voluptatem
+                    provident consectetur cupiditate nobis exercitationem explicabo iure distinctio. Nihil dolores laudantium voluptatem facere vel placeat, deserunt saepe facilis sed earum at, tempora veritatis ut omnis officia nam similique. Architecto
+                    voluptatem rerum corrupti esse ducimus odit.</p>
+            </section>
 
-        <dt><b>Javascript</b></dt>
-        <dd>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est porro cum aspernatur non consequuntur praesentium, minus ratione deleniti tempora corrupti, nisi assumenda amet eveniet saepe recusandae laboriosam animi debitis quibusdam deserunt
-                alias quo eaque incidunt quis? Eligendi inventore quasi possimus nam. Nemo minus, eum ea, unde officiis nisi enim facere cum dolorum quod repellat. Itaque consequatur fuga tempora nesciunt ipsum perspiciatis, qui velit repudiandae alias,
-                dolores pariatur enim. Nesciunt, cupiditate sed aperiam earum iusto neque voluptates fugiat modi, sit numquam incidunt facilis voluptate, aut harum sequi! Nulla facere reiciendis minus excepturi. Corrupti, impedit soluta! Aliquam aspernatur
-                velit dolore unde maiores?</p>
-            <img src="../images/JavaScript-Projects.png">
-        </dd>
-    </dl>
+            <hr>
+
+            <section>
+                <h2> this is dummy project 2 </h2>
+                <img src="../images/dummy-project-2.jpg" width="500px" height="280px">
+                <video src="../videos/dummy-project-2.mp4" width="500px" controls preload> your browser does not support video element </video>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat labore recusandae quia laborum placeat accusamus officia modi, beatae itaque maiores voluptatem, dicta id libero, animi laboriosam corrupti mollitia aperiam quod iste illo repudiandae perferendis
+                    quasi reprehenderit. Suscipit impedit magni quod incidunt quisquam, dolores vitae, sit, natus rem similique error? Id animi enim voluptas est suscipit, officiis sint dignissimos magni pariatur veritatis tenetur consequuntur, vero voluptatem
+                    provident consectetur cupiditate nobis exercitationem explicabo iure distinctio. Nihil dolores laudantium voluptatem facere vel placeat, deserunt saepe facilis sed earum at, tempora veritatis ut omnis officia nam similique. Architecto
+                    voluptatem rerum corrupti esse ducimus odit.</p>
+            </section>
+
+            <hr>
+
+            <section>
+                <h2>this is dummy project 3 </h2>
+                <img src="../images/dummy-project-3.jpg" width="500px" height="280px">
+                <video src="../videos/dummy-project-3.mp4" width="500px" controls preload> your browser does not support video element </video>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat labore recusandae quia laborum placeat accusamus officia modi, beatae itaque maiores voluptatem, dicta id libero, animi laboriosam corrupti mollitia aperiam quod iste illo repudiandae perferendis
+                    quasi reprehenderit. Suscipit impedit magni quod incidunt quisquam, dolores vitae, sit, natus rem similique error? Id animi enim voluptas est suscipit, officiis sint dignissimos magni pariatur veritatis tenetur consequuntur, vero voluptatem
+                    provident consectetur cupiditate nobis exercitationem explicabo iure distinctio. Nihil dolores laudantium voluptatem facere vel placeat, deserunt saepe facilis sed earum at, tempora veritatis ut omnis officia nam similique. Architecto
+                    voluptatem rerum corrupti esse ducimus odit.</p>
+            </section>
+        </div>
+    </main>
+
+    <footer> </footer>
 
 </body>
 

@@ -14,13 +14,18 @@
             padding: 8px;
         }
         
+        td {
+            background-color: aquamarine;
+        }
+        
         table {
             width: 90%;
             text-align: center;
             margin: auto;
+            margin-bottom: 20px;
         }
         
-        .links_div {
+        nav {
             background-color: black;
             text-align: center;
             padding: 12px;
@@ -35,6 +40,7 @@
         
         #my-pic {
             padding: 0%;
+            background-color: yellowgreen;
         }
     </style>
 </head>
@@ -42,85 +48,97 @@
 <body topmargin="0">
 
     <!-- Other Pages Links -->
-    <div class="links_div">
-        <a href="./projects/projects.html">  Projects </a>
-        <a href="./skills/skills.html"> Skills </a>
-        <a href="./contact/contact.html"> Contact </a>
-    </div>
+    <header>
+        <nav>
+            <a href="./projects/projects.html">  Projects </a>
+            <a href="./skills/skills.html"> Skills </a>
+            <a href="./contact/contact.html"> Contact </a>
+        </nav>
+    </header>
 
     <br><br>
 
-    <!-- ye introduction table ha -->
-    <table>
-        <tr style="background-color: blue; color: white;">
-            <th colspan="2">
-                <h1>Hi I Am Shakir Ullah</h1>
-            </th>
-        </tr>
-        <tr>
-            <td id="my-pic">
-                <img src="./images/My-pic.png" width="200px">
-            </td>
-            <td style="background-color: blueviolet; color: white;">
-                <p>I Belong to District Bajaur. Student of BS <br>Computer Science at Agriculture University of Peshawar.<br> Also Student of Web and Mobile App Development at <abbr title="Sylani Mass IT Training">SMIT</abbr> Peshawar. </p>
-            </td>
-        </tr>
-    </table>
+    <main>
+        <!-- introduction table -->
+        <section>
+            <table>
+                <tr style="background-color: blue; color: white;">
+                    <th colspan="2">
+                        <h1>Hi I Am Shakir Ullah</h1>
+                    </th>
+                </tr>
+                <tr>
+                    <td id="my-pic">
+                        <img src="./images/My-pic.png" width="200px"> <br>
+                        <audio src="#" controls> your browser does not suppurt audio </audio>
+                    </td>
+                    <td style="background-color: blueviolet; color: white;">
+                        <p>I Belong to District Bajaur. Student of BS <br>Computer Science at Agriculture University of Peshawar.<br> Also Student of Web and Mobile App Development at <abbr title="Sylani Mass IT Training">SMIT</abbr> Peshawar. </p>
+                    </td>
+                </tr>
+            </table>
+        </section>
 
-    <br><br>
+        <br><br>
 
-    <!-- Eductional Information in Table -->
-    <Table>
-        <!-- first row -->
-        <tr style="background-color: green; color: white;">
-            <th colspan="5">Eductional Information</th>
-        </tr>
+        <!-- Eductional Information Table -->
+        <section>
+            <Table>
+                <!-- first row -->
+                <tr style="background-color: green; color: white;">
+                    <th colspan="5">Eductional Information</th>
+                </tr>
 
-        <!-- Second row / Heading row -->
-        <tr style="background-color: blue; color: white;">
-            <th>Degrees</th>
-            <th>Institute</th>
-            <th>Total Marks</th>
-            <th>obtain Marks</th>
-            <th>Year</th>
-        </tr>
+                <!-- Second row / Heading row -->
+                <tr style="background-color: blue; color: white;">
+                    <th>Degrees</th>
+                    <th>Institute</th>
+                    <th>Total Marks</th>
+                    <th>obtain Marks</th>
+                    <th>Year</th>
+                </tr>
 
-        <!-- third row -->
-        <tr>
-            <td>SSC</td>
-            <td>Govt High School Batwar Bajaur</td>
-            <td>1100</td>
-            <td>739</td>
-            <td>2020</td>
-        </tr>
+                <!-- third row -->
+                <tr>
+                    <td>SSC</td>
+                    <td>Govt High School Batwar Bajaur</td>
+                    <td>1100</td>
+                    <td>739</td>
+                    <td>2020</td>
+                </tr>
 
-        <!-- fourth row -->
-        <tr>
-            <td>HSSC</td>
-            <td>Govt College of Management Science Khar Bajaur</td>
-            <td>1100</td>
-            <td>789</td>
-            <td>2022</td>
-        </tr>
+                <!-- fourth row -->
+                <tr>
+                    <td>HSSC</td>
+                    <td>Govt College of Management Science Khar Bajaur</td>
+                    <td>1100</td>
+                    <td>789</td>
+                    <td>2022</td>
+                </tr>
 
-        <!-- fifth row -->
-        <tr>
-            <td><abbr title="Diploma in Information Technology">DIT</abbr></td>
-            <td>Govt College of Management Science Khar Bajaur</td>
-            <td>1400</td>
-            <td>1092</td>
-            <td>2021</td>
-        </tr>
+                <!-- fifth row -->
+                <tr>
+                    <td><abbr title="Diploma in Information Technology">DIT</abbr></td>
+                    <td>Govt College of Management Science Khar Bajaur</td>
+                    <td>1400</td>
+                    <td>1092</td>
+                    <td>2021</td>
+                </tr>
 
-        <!-- sixth row -->
-        <tr>
-            <td>Bachelor</td>
-            <td>Agriculture University of Peshawar</td>
-            <td>4 GPA</td>
-            <td>3+</td>
-            <td>Continue</td>
-        </tr>
-    </Table>
+                <!-- sixth row -->
+                <tr>
+                    <td>Bachelor</td>
+                    <td>Agriculture University of Peshawar</td>
+                    <td>4 GPA</td>
+                    <td>3+</td>
+                    <td>Continue</td>
+                </tr>
+            </Table>
+        </section>
+    </main>
+
+    <footer> </footer>
+
 </body>
 
 </html>

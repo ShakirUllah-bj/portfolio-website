@@ -13,13 +13,17 @@
             padding: 8px;
         }
         
+        td {
+            background-color: aquamarine;
+        }
+        
         table {
             width: 70%;
             text-align: center;
             margin: auto;
         }
         
-        .links_div {
+        nav {
             background-color: black;
             text-align: center;
             padding: 12px;
@@ -79,75 +83,91 @@
 
 <body topmargin="0">
 
-    <!--Other Pages Pinks -->
-    <div class="links_div">
-        <a href="../index.html"> Home </a>
-        <a href="../skills/skills.html"> Skills </a>
-        <a href="../projects/projects.html"> Projects </a>
-    </div>
+    <header>
+        <!--Other Pages Pinks -->
+        <nav>
+            <a href="../index.html"> Home </a>
+            <a href="../skills/skills.html"> Skills </a>
+            <a href="../projects/projects.html"> Projects </a>
+        </nav>
+    </header>
 
     <br><br>
 
-    <!-- Contacts Table -->
-    <table>
-        <tr>
-            <th colspan="5" style="background-color: green; color: white;"> Contacts </th>
-        </tr>
+    <main>
+        <!-- Contacts Table Section -->
+        <section>
+            <table>
+                <tr>
+                    <th colspan="5" style="background-color: green; color: white;"> Contacts </th>
+                </tr>
 
-        <!-- heading row -->
-        <tr style="background-color: blue; color: white;">
-            <th>Whatsapp</th>
-            <th>Phone</th>
-            <th>Email</th>
-            <th>Linkedin</th>
-            <th>GitHub</th>
-        </tr>
-        <!-- icons row -->
-        <tr>
-            <td><img src="../images/whatsapp.png"></td>
-            <td><img src="../images/call-icon.png"></td>
-            <td><img src="../images/email.png"></td>
-            <td><img src="../images/linkedin.png"></td>
-            <td><img src="../images/github-icon.png"></td>
-        </tr>
-        <!-- data row -->
-        <tr>
-            <td>
-                <a href="https://wa.me/03059502744" style="color: blue;" target="_blank">Whatsapp</a>
-            </td>
-            <td>
-                <a href="tel:03059502744" style="color: blue;" target="_blank">Call Me</a>
-            </td>
-            <td><a href="mailto: shakir.edu304@gmail.com" style="color: blue;" target="-blank"> Email Me </a></td>
-            <td><a href="https://www.linkedin.com/in/shakir-ullah-218518277/" style="color: blue;" target="-blank">Linkedin </a></td>
-            <td>
-                <a href="https://github.com/ShakirUllah-bj" target="-blank" style="color: blue;"> GitHub </a>
-            </td>
-        </tr>
-    </table>
+                <!-- heading row -->
+                <tr style="background-color: blue; color: white;">
+                    <th>Whatsapp</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                    <th>Linkedin</th>
+                    <th>GitHub</th>
+                </tr>
+                <!-- icons row -->
+                <tr>
+                    <td><img src="../images/whatsapp.png"></td>
+                    <td><img src="../images/call-icon.png"></td>
+                    <td><img src="../images/email.png"></td>
+                    <td><img src="../images/linkedin.png"></td>
+                    <td><img src="../images/github-icon.png"></td>
+                </tr>
+                <!-- data row -->
+                <tr>
+                    <td>
+                        <a href="https://wa.me/03059502744" style="color: blue;" target="_blank">Whatsapp</a>
+                    </td>
+                    <td>
+                        <a href="tel:03059502744" style="color: blue;" target="_blank">Call Me</a>
+                    </td>
+                    <td><a href="mailto: shakir.edu304@gmail.com" style="color: blue;" target="-blank"> Email Me </a></td>
+                    <td><a href="https://www.linkedin.com/in/shakir-ullah-218518277/" style="color: blue;" target="-blank">Linkedin </a></td>
+                    <td>
+                        <a href="https://github.com/ShakirUllah-bj" target="-blank" style="color: blue;"> GitHub </a>
+                    </td>
+                </tr>
+            </table>
+        </section>
 
-    <br><br>
+        <br><br>
 
-    <!-- Contact Form Div -->
-    <div id="form-div">
+        <!-- Contact Form Section -->
+        <section>
+            <div id="form-div">
+                <h1>let's chat</h1>
+                <p>wether you have a question, want to start a project or simply want to connect. <br><br> feel free to send me a message in the contact form</p>
+                <br>
 
-        <h1>let's chat</h1>
-        <p>wether you have a question, want to start a project or simply want to connect. <br><br> feel free to send me a message in the contact form</p>
-        <br>
+                <form action="">
+                    <input type="text" placeholder="First Name" class="user-name">
+                    <input type="text" placeholder="Second Name" class="user-name">
+                    <br><br><br>
+                    <input type="email" placeholder="example@example.com" class="email-textarea">
+                    <br><br><br>
+                    <textarea cols="50" rows="10" class="email-textarea" placeholder="Type Your Message Here..."> </textarea>
+                    <br><br><br>
+                    <input type="reset" class="buttons">
+                    <input type="submit" class="buttons">
+                </form>
+            </div>
+        </section>
 
-        <form action="">
-            <input type="text" placeholder="First Name" class="user-name">
-            <input type="text" placeholder="Second Name" class="user-name">
-            <br><br><br>
-            <input type="email" placeholder="example@example.com" class="email-textarea">
-            <br><br><br>
-            <textarea cols="50" rows="10" class="email-textarea" placeholder="Type Your Message Here..."> </textarea>
-            <br><br><br>
-            <input type="reset" class="buttons">
-            <input type="submit" class="buttons">
-        </form>
+        <br><br>
 
-    </div>
+        <section>
+            <iframe src="https://shorturl.at/yBFP6" width="70%" height="450" style="border: 2px solid black; margin-left: 15%;"></iframe>
+        </section>
+
+    </main>
+
+    <footer> </footer>
+
 </body>
 
 </html>
