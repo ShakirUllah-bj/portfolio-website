@@ -1,0 +1,76 @@
+table,
+tr,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+td {
+    background-color: aquamarine;
+}
+
+table {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+nav {
+    background-color: black;
+    text-align: center;
+    padding: 12px;
+}
+
+a {
+    padding: 40px;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+img {
+    width: 25px;
+}
+
+
+/* CSS for form */
+
+#form-div {
+    width: 70%;
+    background-color: blueviolet;
+    color: whitesmoke;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 40px;
+    border: 2px double red;
+    border-radius: 10px;
+}
+
+input,
+textarea {
+    border: 3px inset white;
+    border-radius: 8px;
+    background-color: wheat;
+}
+
+input {
+    height: 25px;
+}
+
+.user-name {
+    width: 24%;
+}
+
+.email-textarea {
+    width: 50%;
+}
+
+.buttons {
+    background-color: orange;
+    width: 12%;
+    height: 40px;
+    font-size: large;
+    font-weight: bold;
+}

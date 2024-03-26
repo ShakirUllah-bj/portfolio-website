@@ -3,50 +3,10 @@
 
 <head>
     <title>Home</title>
-
-    <style>
-        table,
-        tr,
-        th,
-        td {
-            border: 1px solid black;
-            border-collapse: collapse;
-            padding: 8px;
-        }
-        
-        td {
-            background-color: aquamarine;
-        }
-        
-        table {
-            width: 90%;
-            text-align: center;
-            margin: auto;
-            margin-bottom: 20px;
-        }
-        
-        nav {
-            background-color: black;
-            text-align: center;
-            padding: 12px;
-        }
-        
-        a {
-            padding: 40px;
-            color: white;
-            text-decoration: none;
-            font-weight: bolder;
-        }
-        
-        #my-pic {
-            padding: 0%;
-            background-color: yellowgreen;
-        }
-    </style>
+    <link rel="stylesheet" href="./css/home/index.css">
 </head>
 
 <body topmargin="0">
-
     <!-- Other Pages Links -->
     <header>
         <nav>
@@ -55,28 +15,21 @@
             <a href="./contact/contact.html"> Contact </a>
         </nav>
     </header>
-
     <br><br>
-
     <main>
         <!-- introduction table -->
         <section>
-            <table>
-                <tr style="background-color: blue; color: white;">
-                    <th colspan="2">
-                        <h1>Hi I Am Shakir Ullah</h1>
-                    </th>
-                </tr>
-                <tr>
-                    <td id="my-pic">
-                        <img src="./images/My-pic.png" width="200px"> <br>
-                        <audio src="#" controls> your browser does not suppurt audio </audio>
-                    </td>
-                    <td style="background-color: blueviolet; color: white;">
-                        <p>I Belong to District Bajaur. Student of BS <br>Computer Science at Agriculture University of Peshawar.<br> Also Student of Web and Mobile App Development at <abbr title="Sylani Mass IT Training">SMIT</abbr> Peshawar. </p>
-                    </td>
-                </tr>
-            </table>
+
+            <div id="intro-dev">
+                <h1 style="display: inline;"> Hi I Am Shakir Ullah</h1>
+                <img id="speaker" src="./images/speaker.png" alt=" speaker icon">
+                <p>I Belong to District Bajaur. Student of BS <br>Computer Science at Agriculture University of Peshawar.<br> Also Student of Web and Mobile App Development at <abbr title="Sylani Mass IT Training">SMIT</abbr> Peshawar. </p>
+            </div>
+
+            <div id="img-div">
+                <img src="./images/My-pic.png" alt="My Photo">
+            </div>
+
         </section>
 
         <br><br>
@@ -139,6 +92,15 @@
 
     <footer> </footer>
 
+    <!-- javascript for audio -->
+    <script>
+        var audio = new audio("./audio/my-audio.wav");
+
+        function playaudio() {
+            audio.play();
+        }
+        document.getElementById("speaker").addEventListener("click", playaudio);
+    </script>
 </body>
 
 </html>

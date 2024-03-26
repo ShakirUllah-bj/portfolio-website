@@ -1,0 +1,58 @@
+table,
+tr,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+td {
+    background-color: aquamarine;
+}
+
+table {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+nav {
+    background-color: black;
+    text-align: center;
+    padding: 12px;
+}
+
+a {
+    padding: 40px;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+#my-pic {
+    padding: 0%;
+    background-color: yellowgreen;
+}
+
+#intro-dev {
+    margin-right: 10%;
+    margin-top: 10%;
+    display: inline;
+    width: 45%;
+    float: right;
+}
+
+#img-div {
+    width: 45%;
+    float: lift;
+}
+
+#img-div img {
+    width: 40%;
+    border: 3px solid black;
+    border-radius: 40%;
+    background-color: blueviolet;
+    margin-left: 10%;
+}

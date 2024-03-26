@@ -1,0 +1,40 @@
+table,
+tr,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+table {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+
+td {
+    background-color: aquamarine;
+}
+
+nav {
+    background-color: black;
+    text-align: center;
+    padding: 12px;
+}
+
+a {
+    padding: 40px;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+dd {
+    text-align: justify;
+    display: inline;
+}
+
+#container {
+    padding: 5%;
+}
